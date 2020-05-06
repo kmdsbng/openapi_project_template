@@ -12,6 +12,8 @@ curl -o bin/start_prism_mock_server.sh https://raw.githubusercontent.com/kmdsbng
 
 curl -o README.md https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/README.md
 
+curl -o .gitignore https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/.gitignore
+
 mkdir openapi
 curl -o openapi/openapi.yaml https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/openapi/openapi.yaml
 
