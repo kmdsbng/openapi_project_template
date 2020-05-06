@@ -21,8 +21,13 @@ cp -r generated/ts/src/apis frontend/src/
 # cp generated/ts/src//index.ts frontend/src/
 cp generated/ts/src/runtime.ts frontend/src/
 cp generated/ts/README.md frontend/
-cp -n generated/ts/package.json frontend/
-cp -n generated/ts/tsconfig.json frontend/
+cp -n bin/frontend_template/package.json frontend/
+cp -n bin/frontend_template/tsconfig.json frontend/
+cp -n bin/frontend_template/webpack.config.js frontend/
+cp -n bin/frontend_template/src/index.tsx frontend/src/
+mkdir -p frontend/src/components/
+cp -n bin/frontend_template/src/components/Hello.tsx frontend/src/components/
+
 cp -n generated/ts/.npmignore frontend/
 cp -n generated/ts/.gitignore frontend/
 cp generated/ts/.openapi-generator-ignore frontend/
