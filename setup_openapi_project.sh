@@ -1,0 +1,7 @@
+
+mkdir bin
+# curl -o 
+
+
+
+
