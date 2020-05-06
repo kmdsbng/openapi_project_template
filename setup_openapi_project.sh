@@ -2,7 +2,7 @@
 mkdir bin
 curl -o bin/dredd_hooks.js https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/bin/dredd_hooks.js
 
-curl -o bin/generate_kotlin_code.sh https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/bin/bin/generate_kotlin_code.sh
+curl -o bin/generate_kotlin_code.sh https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/bin/generate_kotlin_code.sh
 
 curl -o bin/generate_ts_code.sh https://raw.githubusercontent.com/kmdsbng/openapi_project_template/master/template/bin/generate_ts_code.sh
 
